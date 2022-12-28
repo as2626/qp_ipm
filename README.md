@@ -1,4 +1,4 @@
-This repository implements an interior-point method to solve quadratic programs of the form
+This repository implements a primal-dual interior-point method to solve quadratic programs of the form
 
 $$
 \begin{split}
