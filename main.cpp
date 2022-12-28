@@ -33,6 +33,7 @@ int main(int argc, char** argv) {
     G = -Eigen::MatrixXd::Identity(n, n);
     h.setZero(n);
 
+    // Variables represent fraction of investment
     A.setConstant(1);
     b << 1;
 
