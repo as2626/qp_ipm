@@ -3,7 +3,7 @@ This repository implements an interior-point method to solve quadratic programs 
 $$
 \begin{split}
     \underset{x}{\text{minimize}} 
-    \quad & x^\top Q x + q^\top x \\
+    \quad & \frac{1}{2}x^\top Q x + q^\top x \\
     \text{subject to} 
     \quad & Gx \preceq h, \\
     \quad & Ax = b.
