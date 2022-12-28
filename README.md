@@ -10,3 +10,5 @@ cd eigen \
 && cmake .. \
 && make install
 ```
+
+N.B., much credit goes to [Govind Chari](https://github.com/govindchari/QPSolver) for a reference implementation.
